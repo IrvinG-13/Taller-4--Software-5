@@ -103,13 +103,61 @@ footer{
 
 /*Home*/
 .section1{
-  background-color:#f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#e7e5e5;
   text-align: center;
   padding: 20px;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
+
+figure{
+  background-color: #1b263b;
+  border-radius: 10px;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  box-shadow: #1a1a1a;
+  margin-top: 20px;
+}
+
+figure img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+figure h3{
+  color: rgb(247, 244, 244);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+figure figcaption{
+  color: rgb(239, 238, 238);
+  text-align: justify;
+  margin-top: 20px;
+}
+
 /*Deportivas*/
+.figDepor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b263b;
+  border-radius: 10px;
+  width: 600px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: #1a1a1a;
+  margin-top: 20px;
+}
+
 /*Internacionales, Contactanos */
 #Cuadritos{
   display: flex;
@@ -128,7 +176,7 @@ footer{
 
 .Cartas img{
   width: 100%;
-  height: 160px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
